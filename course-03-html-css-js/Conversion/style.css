@@ -70,18 +70,29 @@ button:hover{
 }
 
 .b{
-    
+    border-top: solid 20px;
+    /* This also works */
+    /* border-top-style: solid;
+    border-top-width: 20px; */
+
+    border-radius: 10px;
+    background-color: white;
+    width:600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+
 }
 
 #temperature{
-
     border-top-color: green;
-    
 }
 
 #weight{
-    border-top-color: green;
+    border-top-color: coral;
 }
+
 
 
 
