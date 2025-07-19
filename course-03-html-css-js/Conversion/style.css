@@ -61,7 +61,19 @@ button {
     border: transparent;
     border-radius: 49px;
     background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+button:hover{
+    cursor: pointer;
+}
+
+#temperature{
+    border-top-color: green;
+}
+
+
 
 
 
