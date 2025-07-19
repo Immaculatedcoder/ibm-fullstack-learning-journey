@@ -69,7 +69,17 @@ button:hover{
     cursor: pointer;
 }
 
+.b{
+    
+}
+
 #temperature{
+
+    border-top-color: green;
+    
+}
+
+#weight{
     border-top-color: green;
 }
 
