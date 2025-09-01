@@ -6,6 +6,7 @@
         <!--This is your page title that appears on the brouser window or tab-->
         <title>Unit Conversion</title>
         <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <!--Home Section-->
@@ -21,6 +22,7 @@
                 <a href="#distance"><button class="topmenu">Distance</button></a>
             </nav>
         </section>
+        <div style="clear:both;"></div>
 
         <div id="all-conversion-section">
             <section class="b" id="temperature">
@@ -36,7 +38,7 @@
                             <label for="celsius">Celsius</label> <br>
                             <input type="number" id="celsius" placeholder="Enter your degree here"> <br/> 
                             
-                            <button>Convert</button> <br>
+                            <button id="temperature" onclick="temperature()">Convert</button> <br>
 
                             <input type="number" id="fahrenheit"><br>
                              <label for="fahrenheit">Fahrenheit</label> 
@@ -61,7 +63,7 @@
                             <label for="kilo">Kilograms</label> <br>
                             <input type="number" id="kilo"> <br>
 
-                            <button id="weight"> Convert</button><br>
+                            <button id="weight" onclick="weight()"> Convert</button><br>
 
                             <input type="number" id="pounds"> <br/>
                             <label for="pounds">Pounds</label>
@@ -91,7 +93,7 @@
                         <input type="number" id="km"> <br/>
 
                         <!-- The conversion button -->
-                        <button id="distance"> Convert </button> <br/>
+                        <button id="distance" onclick="distance()"> Convert </button> <br/>
 
                         <!-- Label for Distance output -->
                         <input type="number" id="miles"> <br/>
@@ -112,6 +114,7 @@
             </a>
         </div>
         <footer>Learn more about HTML as a part of the IBM Fullstack Cloud Developer Certification</footer>
+        
     </body>
 </html>
 
