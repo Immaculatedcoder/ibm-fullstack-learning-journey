@@ -6,7 +6,6 @@
         <!--This is your page title that appears on the brouser window or tab-->
         <title>Unit Conversion</title>
         <link rel="stylesheet" href="./style.css">
-        <script src="script.js"></script>
     </head>
     <body>
         <!--Home Section-->
@@ -38,8 +37,8 @@
                             <label for="celsius">Celsius</label> <br>
                             <input type="number" id="celsius" placeholder="Enter your degree here"> <br/> 
                             
-                            <button id="temperature" onclick="temperature()">Convert</button> <br>
-
+                            <button id="temperature" onclick="temperature()">Convert</button> <button id="t" class="reset"> Reset</button><br>
+                            
                             <input type="number" id="fahrenheit"><br>
                              <label for="fahrenheit">Fahrenheit</label> 
                         </fieldset>
@@ -61,9 +60,9 @@
                             <legend>Weight</legend>
 
                             <label for="kilo">Kilograms</label> <br>
-                            <input type="number" id="kilo"> <br>
+                            <input type="number" id="kilo" placeholder="Enter your weight here"> <br>
 
-                            <button id="weight" onclick="weight()"> Convert</button><br>
+                            <button id="weight" onclick="weight()"> Convert</button> <button id="w" class="reset"> Reset</button><br>
 
                             <input type="number" id="pounds"> <br/>
                             <label for="pounds">Pounds</label>
@@ -90,10 +89,10 @@
                         <!-- Label for Distance input -->
                         <label for="km">Kilometers</label> <br/>
 
-                        <input type="number" id="km"> <br/>
+                        <input type="number" id="km" placeholder="Enter your distance here"> <br/>
 
                         <!-- The conversion button -->
-                        <button id="distance" onclick="distance()"> Convert </button> <br/>
+                        <button id="distance" onclick="distance()"> Convert </button> <button id="d" class="reset"> Reset</button> <br/>
 
                         <!-- Label for Distance output -->
                         <input type="number" id="miles"> <br/>
@@ -114,7 +113,7 @@
             </a>
         </div>
         <footer>Learn more about HTML as a part of the IBM Fullstack Cloud Developer Certification</footer>
-        
+        <script src="script.js"></script>
     </body>
 </html>
 
