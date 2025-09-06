@@ -20,4 +20,5 @@ function compute() {
     } else {
         result.innerHTML = `If you deposit $${pricipal}, \<br\> at an interest rate of of ${rate} %\<br\> You will receive an amount of ${amount}, \<br\> in the year ${year} \<br\>`;
     }
+    
 }
