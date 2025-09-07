@@ -144,5 +144,15 @@ h2{
     margin-block-end: 5px;
 }
 
+/* Projects Section */
 
+.projects-container {
+    margin-top: 30px;
+    margin-left: 60px;
+}
 
+.projects-container hr {
+    border: 1px solid lightgray;
+    width: 75%;
+    margin-left: 5cm;
+}
