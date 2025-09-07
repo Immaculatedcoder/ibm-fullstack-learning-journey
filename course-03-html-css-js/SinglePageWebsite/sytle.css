@@ -56,3 +56,31 @@ body{
     margin-right: 10px;
     float: left;
 }
+
+/* All Sections */
+.container {
+    display: flex;
+}
+
+/* About me Section */
+#about-me {
+    display: flex;
+    align-items: center;
+}
+
+#about-me h1{
+    font-size: 65px;
+    margin-top: 90px;
+    color: #7600bc;
+}
+
+#about-me p{
+    font-size: 25px;
+    color: rgb(128,128,128);
+    margin-top: -1cm;
+}
+
+.profile_image {
+    
+}
+
