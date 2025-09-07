@@ -81,6 +81,9 @@ body{
 }
 
 .profile_image {
-    
+    width: 550px;
+    height: fit-content;
+    vertical-align: middle;
+    margin: 100px;
 }
 
