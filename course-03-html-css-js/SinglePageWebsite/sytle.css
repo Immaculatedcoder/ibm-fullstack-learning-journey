@@ -230,7 +230,7 @@ h2{
     text-align: center;
     position: fixed;
     /* padding: 3px; */
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .popup img {
