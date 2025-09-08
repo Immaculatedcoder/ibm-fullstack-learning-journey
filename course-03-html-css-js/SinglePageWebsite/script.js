@@ -6,7 +6,7 @@ function addRecommendation() {
 
         var element = document.createElement("div");
         element.setAttribute("class","recommendation");
-        element.innerHTML = `\<span\>&#8220;\</span\> ${recommendation} \<span\>&#8221;\</span\>`;
+        element.innerHTML = `\<span\>&#8220;\</span\> ${recommendation.value} \<span\>&#8221;\</span\>`;
 
         // Put this html in the appropate html
         document.getElementById("all_recommendations").appendChild(element);
