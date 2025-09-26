@@ -15,5 +15,5 @@ myPromise.then(value => {
     console.log("From Callback " + value)
 })
 
-// Console log after calling the promise
+// Console log after calling the promises
 console.log("After calling the promise");
